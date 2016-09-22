@@ -1,0 +1,108 @@
+.box{width: 100%;height:32px;line-height:30px;background:#fff0ed}
+.roof-left li{float:left;margin-right:23px;}
+.roof-right li{float:right;margin-left: 23px;}
+.gwc-bottom{display:none;background:#fff;z-index:2;left:-1px;width:243px;height:60px;border:1px solid #ffaa9c;position:absolute;}
+.roof{width: 1200px;margin:0 auto;}
+.roof a:hover{color:#ff8a81}
+.sjgw{position:relative;}
+.gwc{border:1px solid transparent;}
+.nc{border:1px solid transparent;}
+.nc:hover{border:1px solid #ffaa9c;background:#fff;}
+.nc-bottom{left:-1px;display:none;width:64px;border:1px solid #ffaa9c;background:#fff;height:90px;position:absolute;z-index: 2;}
+.nc-bottom li{clear: right;margin:0;}
+.nc-bottom p:hover{color:#ffaa9c}
+.gw{border:1px solid transparent;}
+.gw:hover{border:1px solid #ffaa9c;background:#fff;}
+.QR{display:none;position:absolute;left:-185px;z-index: 2;}
+.QR img{border:1px solid #ffaa9c;}
+.gwc:hover{border:1px solid #ffaa9c;background:#fff;}
+
+
+.zz1{position: absolute;background: #fff;z-index: 5;width:96px;height: 2px;
+    top:-1px;left: 0px;}
+.zz2{position: absolute;background: #fff;z-index: 5;width:64px;height: 2px;
+    top:-2px;left: 0px;}
+.zz3{position: absolute;background: #fff;z-index: 5;width:48px;height: 2px;
+top:-1px;right: 1px;}
+
+
+/*logo*/
+.box2{width:100%;height:95px;line-height: 95px;background:#fff0ed}
+.logo{width:1200px;margin:0 auto;position:relative;}
+.logo-left{float:left}
+.logo-left img{margin-top:15px;margin-left:40px;}
+.logo-left .xn1,.xn2{position: absolute;top:17px;left:190px;}
+
+.logo-right{float:right;}
+.logo-right div{width:274px;height:33px;position:relative;top:32px;float:left;margin-right: 20px;}
+.input{width:220px;height: 30px;line-height:30px;border:1px solid #feb8ae;position: absolute;}
+.button{width:52px;height:32px;background:#feb8ae;color:#fff;position: absolute;left:220px;}
+.button:hover{background:#ffc3bd;}
+.jd{width:134px;height:32px;background:#b7ac7e;color: #fff;}
+.jd:hover{background:#ad9e6b;}
+
+
+/*nav*/
+.box3{width:100%;height:36px;background:#f6827a;position:relative;}
+.box3 ul li{float:left;width:107px;height:36px;line-height: 36px;}
+.box3 ol li{float:right;}
+.box3 a{display:inline-block;text-align: center;color: #fff;width:107px;height:36px;line-height: 36px;}
+.box3 a:hover{background:#e56961;width:107px;height:36px;line-height: 36px;}
+
+.nav{display:none;}
+/*.nav-two{display:none;}*/
+/*.nav-three{display:none;}*/
+/*.nav-four{display:none;}*/
+/*.nav-five{display:none;}*/
+/*.nav-six{display:none;}*/
+.nav{position: absolute;width:100%;z-index: 10;background:#fff;}
+.box3-diamond{width:1200px;margin:0 auto;height:326px;}
+.box3-diamond .one{margin:32px;float:left;}
+.box3-diamond dt{font-size:23px;color:#000;}
+.box3-diamond dd{color:#636563;margin-top:13px;}
+.box3-diamond ul{margin-top:89px;float:left;}
+.box3-diamond ul li{margin-top:13px;margin-left:5px;}
+
+.moulding{width:2px;height:267px;background:#ccc;float:left;
+margin-left:112px;margin-top:32px;}
+.box3-diamond ol{float:left;margin-left:45px;margin-top:97px;}
+.box3-diamond ol li{margin-top:13px;}
+.box3-diamond img{width: 100%;height:100%;}
+.mouldingimg{margin-top:32px;float:left;margin-left:40px;width:653px;height:277px;}
+
+.box3-diamond a:hover{color:#ff8A84}
+
+
+/*footer*/
+.footer1{height:65px;width:100%;background:#fff3ef;}
+.footer1 div{margin:0 auto;width:1200px;border-bottom:1px solid #fff;}
+
+.footer2{width:100%;height:465px;background:#fff3ef;padding-top:45px;}
+.footer2-top{height:110px;}
+.footer2 dl{margin-left:80px;width:70px;}
+.footer2 dt{color:#666;}
+.footer2 dd a{display:block;color:#999;margin-bottom:5px;}
+.footer2 dd a:hover{color: #ff8A84;}
+
+.wx{float:right;background:url("../images/wx.jpg");width:217px;height:120px;}
+
+.foo-1{height:65px;width:490px;overflow:hidden;margin-left:490px;margin-top:30px;}
+.foo-2{width:770px;height:45px;margin:35px auto;text-align: center;color: #999;}
+.foo-2 ul li{float:left;margin-right:12px;}
+.foo-2 ul li a{color:#999;}
+.foo-2 ul li a:hover{color: #ffb2a5;}
+.p{height:40px;width:500px;margin-left:140px;display: block;margin-top:15px;float:left;}
+
+.foo-3 ul{width:578px;margin:0 auto;}
+.foo-3 ul li{float:left;}
+.foo-3 ul li img{width:110px;height:35px;}
+
+
+/*find*/
+.find{position: fixed;right:0;top:20%;margin-top:100px;}
+.find2{border-top: 2px solid #fff;}
+.find4{position: absolute;top:0;right:58px;display: none;}
+
+.find3{position:fixed;right:20px;bottom:20px; display: none;}
+
+
