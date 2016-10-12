@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="rem.js"></script>
+   <style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.banner{
+			width:6.4rem;
+			height:2.67rem;
+			background:url("images/ban_01.png") no-repeat;
+			background-size: 100% 100%;
+		}
+		.kong{
+			background:#efefef;
+			width:6.4rem;
+			height:.15rem;
+			border-bottom: 0.01rem #ccc solid;
+		}
+		.a_top{
+			width:6.4rem;
+			height:1.32rem;
+			border-bottom: 0.01rem solid #ccc;
+			font-size: 0.23rem;
+			position:relative;
+		}
+		ul,li{
+			list-style: none;
+		}
+		.a_top ul li{
+			float:left;
+			width:20%;
+			height: 1.32rem;
+			text-align: center;
+		}
+		.a_top ul li img{
+			height:.48rem;
+			width:.48rem;
+			margin: .15rem 0rem;
+		}
+		.a_top ul li div{
+		}
+		.san{
+			width:0;
+			height:0;
+			font-size: 0;
+			border:0.2rem solid transparent;
+			border-bottom-color: #ccc;
+			position:absolute;
+			bottom:0;
+			left:.5rem;
+		}
+		.xi{
+			width:0;
+			height:0;
+			font-size: 0;
+			border:0.18rem solid transparent;
+			border-bottom-color: #fff;
+			position:absolute;
+			bottom:-2px;
+			left: .51rem;
+			z-index: 2;
+		}
+		.a_bottom{
+			width:6.4rem;
+			height:2.05rem;
+			font-size: 0.23rem;
+		}
+		.a_bottom ul li{
+			float:left;
+			width:20%;
+			text-align: center;
+		}
+		.a_bottom ul li img{
+			height:.30rem;
+			width:.30rem;
+			margin: .15rem 0rem;
+		}
+		.box{
+			width:6.4rem;
+			height:17.12rem;
+			background:#efefef;
+			border-top: 1px solid #ccc;
+			font-size: .23rem;
+
+		}
+		.dapai{
+			width:6rem;
+			height:1.44rem;
+			margin:0.3rem auto;
+		}
+		.d_right{
+			float:right;
+		}
+		.jianbian{
+			width:6rem;
+			height:0.02rem;
+			background:-webkit-linear-gradient(left,red 0%,red 50%,#ccc 100% );
+		}
+		.dapai ul li{
+			float:left;
+			margin-right: .09rem;
+		}
+		.dapai ul li img{
+			margin-top: .2rem;
+			width:1.43rem;
+			height:.79rem;
+		}
+		.dapai .clermat{
+			margin-right:0;
+		}
+		.colred{
+			color:red;
+		}
+		.wid6{
+			width:6rem;
+			margin:0 auto;
+		}
+		.hd_img{
+			margin:.15rem auto;
+		}
+		.yh{
+			height:2.34rem;
+		}
+		.yh_bottom{
+			background:#fff;
+		}
+		.bao{
+			width:2.87rem;
+			height:1.91rem;
+			margin:.15rem auto;
+			float:left;
+		}
+		.y_right{
+			width:3.12rem;
+			height:1.86rem;
+			float:left;
+			margin:.18rem 0rem;
+			position:relative;
+			background: #fff;
+		}
+		.y_right h2{
+			font-size:.3rem; 
+			display: inline-block;
+			margin-top:.25rem;
+			color:red;
+		}
+		.y_right p{
+			font-size: .24rem;
+			line-height: .6rem;
+		}
+		.y_right span{
+			position:absolute;
+			bottom:.1rem;
+			right:.2rem;
+			width:1.1rem;
+			height:.52rem;
+			border:1px solid #f00;
+			font-size: .24rem;
+			text-align: center;
+			line-height: .53rem;
+			border-radius: 6px;
+		}
+		.tg{
+			clear:both;
+			height:4.3rem;
+		}
+		.t_top{
+			margin:.15rem 0;
+			background:#fff;
+		}
+		.t_top img{
+			width:2rem;
+			height:1.64rem;
+		}
+		.tt_right{
+			float: right;
+			width:4rem;
+		}
+		.tt_right h2{
+			font-size:.3rem; 
+			display: inline-block;
+			margin-top:.25rem;
+			color:red;
+		}
+		.tt_right p{
+			font-size: .23rem;
+			line-height: .7rem;
+		}
+		.tt_right span{
+			font-size: .23rem;
+			color:red;
+		}
+		.tt_right s{
+			font-size: .23rem;
+			color:#ccc;
+		}
+		.yx img{
+			width:6rem;
+			margin-top:.15rem;
+		}
+		.footer{
+			width:6.4rem;
+			height:.88rem;
+			background:#1f1b29;
+			font-size: .23rem;
+			color:#fff;
+		}
+	   .footer ul li{
+		   width:33.33%;
+		   text-align: center;
+		   line-height: .88rem;
+		   float:left;
+	   }
+	   .footer ul li:hover{
+		   background:#9b3123;
+	   }
+    </style>
+</head>
+<body>
+	<div class="banner">
+		
+	</div>
+	<div class="kong"></div>
+
+	<div class="app">
+		<div class="a_top">
+			<div class="san"></div>
+			<div class="xi"></div>
+			<ul>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="a_bottom">
+			<ul>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+				<li>
+					<img src="images/hui_04.png" alt="">
+					<div>聚·惠</div>
+				</li>
+			</ul>
+		</div></div>
+
+	<div class="box">
+		<div class="dapai">
+			<span class="d_left colred">大牌驾到</span>
+			<span class="d_right">更多品牌>></span>
+			<div class="jianbian"></div>
+			<ul>
+				<li>
+					<img src="images/jarsun_04.png">
+				</li>
+				<li>
+					<img src="images/jarsun_04.png">
+				</li>
+				<li>
+					<img src="images/jarsun_04.png">
+				</li>
+				<li class="clermat">
+					<img src="images/jarsun_04.png">
+				</li>
+			</ul>
+		</div>
+		<div class="hd wid6">
+			<span class="d_left colred">最新活动</span>
+			<span class="d_right">更多商城活动>></span>
+			<div class="jianbian"></div>
+			<img src="images/hd_04.png" class="wid6 hd_img">
+		</div>
+		<div class="yh wid6">
+			<span class="d_left colred">最新优惠</span>
+			<span class="d_right">更多优惠>></span>
+			<div class="jianbian"></div>
+			<div class="yh_bottom">
+				<img src="images/bao_07.png" class="bao">
+				<div class="y_right">
+					<h2>优惠活动标题活</h2>
+					<p>商铺名称商铺名称商铺名称活动类别</p>
+					<span>商铺位置</span>
+				</div>
+			</div>
+		</div>
+		<div class="tg wid6">
+			<span class="d_left colred">商家团购</span>
+			<span class="d_right">更多团购>></span>
+			<div class="jianbian"></div>
+			<div class="t_top">
+				<img src="images/tg_10.png">
+				<div class="tt_right">
+					<h2>团购标题团购标题团</h2>
+					<p>描述描述描述描述描述描述描述</p>
+					<span>￥255</span>
+					<s>￥1200</s>
+				</div>
+			</div>
+			<div class="t_top">
+				<img src="images/tg_10.png">
+				<div class="tt_right">
+					<h2>团购标题团购标题团</h2>
+					<p>描述描述描述描述描述描述描述</p>
+					<span>￥255</span>
+					<s>￥1200</s>
+				</div>
+			</div>
+		</div>
+		<div class="kj wid6">
+			<span class="d_left colred">优惠卡卷</span>
+			<span class="d_right">更多>></span>
+			<div class="jianbian"></div>
+			<div class="t_top">
+				<img src="images/kj_13.png">
+				<div class="tt_right">
+					<h2>团购标题团购标题团</h2>
+					<p>描述描述描述描述描述描述描述</p>
+					<span>￥255</span>
+					<s>￥1200</s>
+				</div>
+			</div>
+			<div class="t_top">
+				<img src="images/kj_13.png">
+				<div class="tt_right">
+					<h2>团购标题团购标题团</h2>
+					<p>描述描述描述描述描述描述描述</p>
+					<span>￥255</span>
+					<s>￥1200</s>
+				</div>
+			</div>
+		</div>
+		<div class="yx wid6">
+			<span class="d_left colred">互动游戏</span>
+			<span class="d_right">更多>></span>
+			<div class="jianbian"></div>
+			<img src="images/yx_15.png">
+		</div>
+	</div>
+
+	<div class="footer">
+		<ul>
+			<li>
+				<span>裕天@你</span>
+			</li>
+			<li>
+				<span>生活家</span>
+			</li>
+			<li>
+				<span>裕天云购</span>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
